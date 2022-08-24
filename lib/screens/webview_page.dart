@@ -24,6 +24,7 @@ class AWSRegistrationWebViewState extends State<AWSRegistrationWebView> {
       top: false,
       child: Scaffold(
         appBar: AppBar(
+          centerTitle: true,
           elevation: 1,
           backgroundColor: Colors.white,
           title: FittedBox(
