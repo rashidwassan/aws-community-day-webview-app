@@ -35,6 +35,7 @@ class AWSRegistrationWebViewState extends State<AWSRegistrationWebView> {
               )),
         ),
         body: const WebView(
+          javascriptMode: JavascriptMode.unrestricted,
           zoomEnabled: false,
           initialUrl: 'https://awscommunity.pk/aws-community-day-lahore-2022/',
         ),
